@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 #an algorith to calculate an approximate value of "e" using the Euler methode 
-#to solve ODE (y'-y=0 for y(0)=1 
+#to solve ODE (y'-y=0 for y(0)=1)
 def Euler(n=10000000): 
 	h = 1 / n; 
 	y = [1];
